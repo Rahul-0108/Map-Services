@@ -92,7 +92,7 @@ export const WMS = () => {
                 if (layerNames.length > 0) {
                   setlayerNames(layerNames);
                   setWmsconnect(true);
-                  setMessage("Connected Succesfully");
+                  setMessage("Connected Succesfully!!");
                 }
                 else {
                   setMessage("could not connect");
